@@ -6,7 +6,7 @@ Joule-IO is an alias module for using Intel's Joule with Johnny-Five. It's an al
 
 ```js
 var five = require("johnny-five");
-var Joule = require("edison-io");
+var Joule = require("joule-io");
 var board = new five.Board({
   io: new Joule()
 });
